@@ -1,4 +1,9 @@
 def filter_big(letter):
+    """
+    The function checks whether the letter is capitalized
+    :param letter: letter we check
+    :return: test result (true or False)
+    """
     if letter.isupper():
         return True
     else:
